@@ -89,11 +89,12 @@ namespace Solitaire_major_project
                 c.Location = new Point(75, 300 + 10 * i);
                 c.Parent = this;
             }
-            acebox Acebox = new acebox();
+            
             for(int i = 0; i < 4; i++)
-            {
-                acebox a = boxdeck.Draw();
-                a.Location = new Point(75, 800 + 20 * i);
+            { 
+                acebox a = new acebox();
+                
+                a.Location = new Point(75+20 * i,50);
                 a.Parent = this;
             }
 

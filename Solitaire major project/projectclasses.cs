@@ -126,7 +126,7 @@ namespace Solitaire_major_project
         {
             string imagefile = "";
 
-            imagefile = "../../resources" + "acebox" + ".png";
+            imagefile = "../../resources/" + "acebox" + ".png";
             Image = Image.FromFile(imagefile);
             SizeMode = PictureBoxSizeMode.StretchImage;
             Margin = new Padding(0, 0, 0, 0);
