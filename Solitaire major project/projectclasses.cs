@@ -77,7 +77,8 @@ namespace Solitaire_major_project
             }
             if(e.Button == MouseButtons.Right)
             {
-                
+                Left += 200;
+                Top += 0;
             }
 
         }

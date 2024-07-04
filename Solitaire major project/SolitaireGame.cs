@@ -29,7 +29,14 @@ namespace Solitaire_major_project
 
             boxdeck boxdeck = new boxdeck();
             
-            
+            for (int i = 24; i > 0; i--)
+            {
+                
+                Card c = deck.Draw();
+                c.Location = new Point(55+1*i, 53);
+                c.Parent = this;
+
+            }
             for (int i = 7; i > 0; i--)
             {
          
@@ -86,7 +93,7 @@ namespace Solitaire_major_project
             { 
                 acebox a = new acebox();
                 
-                a.Location = new Point(75+20 * i,50);
+                a.Location = new Point(555+140 * i,50);
                 a.Parent = this;
             }
 
