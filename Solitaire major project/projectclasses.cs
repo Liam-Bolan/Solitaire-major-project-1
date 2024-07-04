@@ -70,11 +70,14 @@ namespace Solitaire_major_project
         
         private void Card_MouseDown(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left && faceup)
             {
                 Left += e.X - 80;
                 Top += e.Y - 110;
-
+            }
+            if(e.Button == MouseButtons.Right)
+            {
+                
             }
 
         }
